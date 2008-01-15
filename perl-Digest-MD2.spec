@@ -1,7 +1,7 @@
 %define	name	perl-Digest-MD2
 %define	real_name Digest-MD2
 %define	version	2.03
-%define	release	%mkrel 4
+%define	release	%mkrel 5
 
 Summary:	Perl interface to the MD2 Algorithm	
 Name:		%{name}
