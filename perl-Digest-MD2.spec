@@ -1,18 +1,18 @@
-%define	name	perl-Digest-MD2
-%define	real_name Digest-MD2
-%define	version	2.03
-%define	release	%mkrel 7
+%define	upstream_name    Digest-MD2
+%define	upstream_version 2.03
+
+Name:       perl-%{upstream_name}
+Version:    %perl_convert_version %{upstream_version}
+Release:    %mkrel 1
 
 Summary:	Perl interface to the MD2 Algorithm	
-Name:		%{name}
-Version:	%{version}
-Release:	%{release}
-License:	GPL or Artistic
+License:	GPL+ or Artistic
 Group:		Development/Perl
-Source:		http://www.cpan.org/authors/id/GAAS/%{real_name}-%{version}.tar.bz2
-URL:		http://search.cpan.org/dist/%{real_name}
+Url:		http://search.cpan.org/dist/%{upstream_name}
+Source0:	http://www.cpan.org/authors/id/GAAS/%{upstream_name}-%{upstream_version}.tar.bz2
+
 BuildRequires:	perl-devel
-BuildRoot:	%{_tmppath}/%{name}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
 Provides:	perl-MD2
 Requires:	perl
 
@@ -20,7 +20,7 @@ Requires:	perl
 Digest-MD2 module for perl.
 
 %prep
-%setup -q -n %{real_name}-%{version}
+%setup -q -n %{upstream_name}-%{upstream_version}
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
@@ -42,5 +42,3 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/*/*
 %{perl_vendorarch}/Digest
 %{perl_vendorarch}/auto
-
-
