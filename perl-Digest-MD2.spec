@@ -42,3 +42,58 @@ rm -rf %{buildroot}
 %{_mandir}/*/*
 %{perl_vendorarch}/Digest
 %{perl_vendorarch}/auto
+
+
+%changelog
+* Sun Jan 22 2012 Oden Eriksson <oeriksson@mandriva.com> 2.30.0-5mdv2012.0
++ Revision: 765187
+- rebuilt for perl-5.14.2
+
+* Sat Jan 21 2012 Oden Eriksson <oeriksson@mandriva.com> 2.30.0-4
++ Revision: 763703
+- rebuilt for perl-5.14.x
+
+* Sat May 21 2011 Oden Eriksson <oeriksson@mandriva.com> 2.30.0-3
++ Revision: 676525
+- rebuild
+
+* Tue Jul 20 2010 Jérôme Quelin <jquelin@mandriva.org> 2.30.0-2mdv2011.0
++ Revision: 555242
+- rebuild
+
+* Sat Aug 01 2009 Jérôme Quelin <jquelin@mandriva.org> 2.30.0-1mdv2010.0
++ Revision: 407000
+- rebuild using %%perl_convert_version
+
+* Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 2.03-7mdv2009.0
++ Revision: 256681
+- rebuild
+
+* Tue Jan 15 2008 Thierry Vignaud <tv@mandriva.org> 2.03-5mdv2008.1
++ Revision: 152064
+- rebuild
+
+* Thu Dec 20 2007 Olivier Blin <blino@mandriva.org> 2.03-4mdv2008.1
++ Revision: 135833
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Mon Jan 15 2007 Olivier Thauvin <nanardon@mandriva.org> 2.03-4mdv2007.0
++ Revision: 109319
+- rebuild
+
+  + Guillaume Rousse <guillomovitch@mandriva.org>
+    - Import perl-Digest-MD2
+
+* Fri Jan 13 2006 Rafael Garcia-Suarez <rgarciasuarez@mandriva.com> 2.03-3mdk
+- Rebuild
+
+* Mon Nov 15 2004 Rafael Garcia-Suarez <rgarciasuarez@mandrakesoft.com> 2.03-2mdk
+- rebuild for new perl, clean up spec
+
+* Wed Apr 14 2004 Rafael Garcia-Suarez <rgarciasuarez@mandrakesoft.com> 2.03-1mdk
+- 2.03.
+
