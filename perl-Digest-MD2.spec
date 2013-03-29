@@ -1,10 +1,10 @@
-%define	upstream_name    Digest-MD2
-%define	upstream_version 2.03
+%define upstream_name Digest-MD2
+%define upstream_version 2.03
 
 Summary:	Perl interface to the MD2 Algorithm	
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	6
+Release:	7
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
