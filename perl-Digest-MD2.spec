@@ -8,7 +8,7 @@ Release:	11
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/authors/id/GAAS/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/authors/id/G/GA/GAAS/%{upstream_name}-%{upstream_version}.tar.bz2
 
 BuildRequires:	perl-devel
 Provides:	perl-MD2
