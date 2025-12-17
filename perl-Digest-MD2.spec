@@ -4,7 +4,7 @@
 Summary:	Perl interface to the MD2 Algorithm	
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	21
+Release:	22
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://search.cpan.org/dist/%{upstream_name}
