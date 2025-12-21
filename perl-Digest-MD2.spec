@@ -10,6 +10,7 @@ Group:		Development/Perl
 Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/authors/id/G/GA/GAAS/%{upstream_name}-%{upstream_version}.tar.bz2
 
+BuildRequires:	make
 BuildRequires:	perl-devel
 Provides:	perl-MD2
 
